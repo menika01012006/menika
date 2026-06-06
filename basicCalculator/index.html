@@ -50,21 +50,21 @@
                         if (Withdraw_amount < Balance) {
                             if (Balance - Withdraw_amount >= 1000) {
                                 let remainingBalance = Balance - Withdraw_amount;
-                                result.innerHTML = "✅ Successful Transaction<br>Remaining Balance: " + remainingBalance;
+                                result.innerHTML = " Successful Transaction<br>Remaining Balance: " + remainingBalance;
                             } else {
-                                result.innerHTML = "❌ Minimum balance 1000 required";
+                                result.innerHTML = " Minimum balance 1000 required";
                             }
                         } else {
-                            result.innerHTML = "❌ Insufficient Balance";
+                            result.innerHTML = " Insufficient Balance";
                         }
                     } else {
-                        result.innerHTML = "❌ Amount should be multiple of 500";
+                        result.innerHTML = " Amount should be multiple of 500";
                     }
                 } else {
-                    result.innerHTML = "❌ Invalid PIN";
+                    result.innerHTML = "Invalid PIN";
                 }
             } else {
-                result.innerHTML = "❌ Enter 4 digit PIN";
+                result.innerHTML = " Enter 4 digit PIN";
             }
         }
     </script>

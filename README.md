@@ -1,4 +1,4 @@
-# 🏧 ATM Machine Web Project
+#  ATM Machine Web Project
 
 ##  Description
 
@@ -7,7 +7,7 @@ It allows users to enter their balance, withdraw amount, and PIN to perform a tr
 
 ---
 
-## 🚀 Features
+##  Features
 
 *  PIN validation (only 4-digit allowed)
 *  Withdraw money functionality
@@ -18,7 +18,7 @@ It allows users to enter their balance, withdraw amount, and PIN to perform a tr
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User enters:
 
@@ -38,7 +38,7 @@ It allows users to enter their balance, withdraw amount, and PIN to perform a tr
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * HTML
 * CSS
@@ -46,16 +46,16 @@ It allows users to enter their balance, withdraw amount, and PIN to perform a tr
 
 ---
 
-## 📷 Output Example
+## Output Example
 
-* ✅ Successful Transaction
-* ❌ Invalid PIN
-* ❌ Insufficient Balance
-* ❌ Minimum Balance Error
+* Successful Transaction
+* Invalid PIN
+* Insufficient Balance
+* Minimum Balance Error
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * No database (data is not stored)
 * Fixed PIN (1345)
@@ -63,7 +63,7 @@ It allows users to enter their balance, withdraw amount, and PIN to perform a tr
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Add login system
 * Connect with database
